@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー | Recipee</title>
+  <link rel="stylesheet" href="https://devcss.devins.page/dev.css">
+  <style>
+    body { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { border-bottom: 1px solid #e5e7eb; padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    header p { color: #6b7280; margin: 0; }
+    section { margin-bottom: 2.5rem; }
+    table { width: 100%; }
+    footer { border-top: 1px solid #e5e7eb; padding-top: 1.5rem; margin-top: 3rem; color: #6b7280; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>プライバシーポリシー</h1>
+    <p>Recipee（レシピー） &nbsp;|&nbsp; 最終更新日: 2026年6月10日</p>
+  </header>
+
+  <section>
+    <p>
+      本プライバシーポリシーは、Recipee（以下「本アプリ」）における個人情報および利用者データの取り扱いについて説明します。
+      本アプリをご利用いただくことで、本ポリシーの内容にご同意いただいたものとみなします。
+    </p>
+  </section>
+
+  <section>
+    <h2>1. 収集する情報</h2>
+    <p>本アプリが収集・利用する情報は以下の通りです。</p>
+    <table>
+      <thead>
+        <tr>
+          <th>情報の種類</th>
+          <th>内容</th>
+          <th>保存先</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>食材テキスト</td>
+          <td>レシピ提案のために入力された食材リストおよび希望・条件</td>
+          <td>外部 API（一時処理のみ）</td>
+        </tr>
+        <tr>
+          <td>食材写真</td>
+          <td>写真入力モードで選択または撮影された画像</td>
+          <td>外部 API（一時処理のみ）</td>
+        </tr>
+        <tr>
+          <td>保存レシピ</td>
+          <td>ユーザーがお気に入りに保存したレシピ情報</td>
+          <td>端末内のみ</td>
+        </tr>
+        <tr>
+          <td>検索履歴</td>
+          <td>過去の検索内容と提案されたレシピ（最大50件）</td>
+          <td>端末内のみ</td>
+        </tr>
+        <tr>
+          <td>プラン情報</td>
+          <td>フリー／プレミアムプランの状態、当日の利用回数</td>
+          <td>端末内のみ</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>本アプリは氏名・メールアドレス・位置情報・連絡先などの個人を特定できる情報を収集しません。</p>
+  </section>
+
+  <section>
+    <h2>2. 情報の利用目的</h2>
+    <ul>
+      <li>入力された食材・写真をもとに AI によるレシピ提案を行うため</li>
+      <li>保存レシピおよび検索履歴を端末内に保持し、アプリの機能を提供するため</li>
+      <li>フリープランの1日あたりの利用回数を管理するため</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. 第三者への情報提供</h2>
+    <p>
+      本アプリはレシピ提案のために、入力された食材テキストおよび食材写真（base64 形式）を
+      <strong>Anthropic, Inc.</strong>（米国）が提供する Claude API に送信します。
+      送信データは API によるレスポンス生成にのみ使用され、Anthropic 社のサービス利用規約およびプライバシーポリシーが適用されます。
+    </p>
+    <p>
+      上記以外の第三者に対して、利用者の情報を販売・提供・開示することはありません。
+      ただし、法令に基づく要請があった場合を除きます。
+    </p>
+    <ul>
+      <li>Anthropic プライバシーポリシー: <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">anthropic.com/privacy</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. データの保存と管理</h2>
+    <p>
+      保存レシピ・検索履歴・プラン情報はすべて利用者の端末内（AsyncStorage）にのみ保存されます。
+      開発者のサーバーへの送信・保存は一切行いません。
+      アプリを削除すると、端末内に保存されたすべてのデータは消去されます。
+    </p>
+  </section>
+
+  <section>
+    <h2>5. カメラおよびフォトライブラリへのアクセス</h2>
+    <p>
+      写真入力機能を使用する場合、本アプリはカメラおよびフォトライブラリへのアクセス許可を要求します。
+      取得した画像はレシピ提案の目的にのみ使用され、端末外への保存は行いません。
+      アクセス許可は端末の設定からいつでも変更できます。
+    </p>
+  </section>
+
+  <section>
+    <h2>6. お子様のプライバシー</h2>
+    <p>
+      本アプリは13歳未満の方を対象としていません。
+      13歳未満の方からの情報を意図的に収集することはありません。
+    </p>
+  </section>
+
+  <section>
+    <h2>7. プライバシーポリシーの変更</h2>
+    <p>
+      本ポリシーは必要に応じて更新されることがあります。
+      重要な変更がある場合は、本ページの「最終更新日」を変更することでお知らせします。
+      定期的にご確認いただくことをお勧めします。
+    </p>
+  </section>
+
+  <section>
+    <h2>8. お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問・ご意見は下記までご連絡ください。</p>
+    <ul>
+      <li>メールアドレス: <a href="mailto:aoi.ishii0818@gmail.com">aoi.ishii0818@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Recipee. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
